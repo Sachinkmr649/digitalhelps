@@ -1,0 +1,621 @@
+* {
+    margin: auto;
+    max-width: 1024px;
+}
+/* logo and website name settings */
+body {
+    margin: 2px;
+    height: 100vh;
+    background-color: rgb(240, 224, 224) ;
+}
+
+#logoandname {
+    background-color: rgba(2, 167, 27, 0.507);
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    height: auto;
+    min-width: auto;
+    border-radius: 22px;
+}
+
+#logoandname .left { 
+    width: 155px;
+    height: 150px;
+    margin: 25px 50px;
+   }
+
+#logoandname .left img {
+    margin: auto;
+}
+
+#logoandname .right {
+    /* border: 2px solid black; */
+    width: 700px;
+    /* height: 150px; */
+    color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1000;
+}
+
+#logoandname .right span:nth-child(1) {
+    /* border: 2px solid red; */
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 16.5px;
+    margin-left: 93.7px;
+    margin-right: 93.7px;
+    margin-top: 16.5px;
+
+}
+
+#logoandname .right span:nth-child(2) {
+    /* border: 2px solid red; */
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin-bottom: 16.5px;
+    margin-left: 204.6px;
+    margin-right: 204.617px;
+    margin-top: 16.5px;
+    text-wrap: wrap;
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(182, 36, 36);
+    max-width: 1010px;
+}
+
+nav {
+    border: none;
+    /* padding: 10px; */
+    background-color: white;
+    /* .nav-toggle {
+    display: none;
+} */
+
+}
+
+header ul {
+    /* border: 2px solid aqua; */
+    padding: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: black;
+}
+
+header ul li {
+    border: 2px solid white;
+    margin-left: 1px;
+    list-style: none;
+    padding: 15px;
+    height: 30px;
+    min-width: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+header ul li a {
+    border: 2px solid black;
+    /* padding: 10px; */
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+
+#first {
+    /* border: 2px solid gold; */
+    font-size: 35px;
+    text-align: center;
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    color: crimson;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 1010px;
+    max-width: fit-content;
+}
+
+@keyframes para1 {
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: 10px;
+    }
+}
+
+@keyframes para2 {
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: 137px;
+    }
+}
+
+@keyframes para3 {
+    from {
+        margin-left: 119px;
+    }
+
+    to {
+        margin-left: 0px;
+    }
+}
+
+@keyframes para4 {
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: 115px;
+    }
+}
+
+#second {
+    /* border: 2px solid hotpink; */
+    min-width: 1010px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#second span {
+    /* border: 1px solid red; */
+    margin: 1px;
+
+}
+
+#second {
+    font-size: 20px;
+}
+
+#second a {
+    text-decoration: none;
+    max-width: 992px;
+    border: none;
+    outline: 0;
+    margin: auto;
+    cursor: pointer;
+    color:-webkit-link;
+}
+
+#second .para1 {
+    margin: auto;
+    @keyframes duration | easing-function | delay |
+iteration-count | direction | fill-mode | play-state | name
+
+    animation: para1 3s infinite alternate;
+    width: 951.567px;
+    overflow: hidden;
+
+}
+
+#second .para2 {
+
+    animation: para2 3s infinite alternate;
+    width: 870.6px;
+    overflow: hidden;
+}
+
+#second .para3 {
+    animation: para3 3s infinite alternate;
+    font-size: 18px;
+    width: 888.133px;
+    overflow: hidden;
+}
+
+#second .para4 {
+    animation: para4 3s infinite alternate;
+    width: 892.067px;
+    overflow: hidden;
+    
+}
+
+#third {
+    /* border: 2px solid darkviolet; */
+    padding: 5px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 165px;
+    text-align: center;
+    /* min-width: 1010px; */
+}
+
+#third span img {
+    width: 40px;
+    border-radius: 20px;
+}
+
+#third .upper {
+    /* border: 2px solid violet; */
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+
+#third .lower {
+    /* border: 2px solid darkgoldenrod; */
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+
+}
+
+#third .upper span {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin: auto;
+}
+
+#third a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: auto;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+#fourth {
+    /* border: 2px solid red; */
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1010px;
+}
+
+#fourth div {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fourth p {
+    border: 2px solid rgb(58, 55, 63);
+    margin: 2px;
+    width: 230px;
+    height: 70px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fourth a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#fourth .upper p:nth-child(1) {
+    background-color: rgb(134, 138, 8);
+}
+
+#fourth .upper p:nth-child(2) {
+    background-color: blue;
+}
+
+#fourth .upper p:nth-child(3) {
+    background-color: orangered;
+}
+
+#fourth .upper p:nth-child(4) {
+    background-color: brown;
+}
+
+#fourth .lower p:nth-child(1) {
+    background-color: red;
+}
+
+#fourth .lower p:nth-child(2) {
+    background-color: green;
+}
+
+#fourth .lower p:nth-child(3) {
+    background-color: hotpink;
+}
+
+#fourth .lower p:nth-child(4) {
+    background-color: rgb(226, 192, 39);
+}
+
+
+.mycallmd4 {
+    width: 29%;
+    background-color: white;
+    padding: 5px 0;
+    float: left;
+    margin: 2%
+}
+
+.list,.list ul li {
+    width: 100%;
+    float: left
+}
+
+/* job list settings */
+.list {
+    padding-bottom: 15px;
+    border: 1px solid #6681ac;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-bottom: 5px
+}
+
+.mynewtable .list h2 {
+    background-color: rgba(24, 145, 0, 0.705);
+    font-size: 22px;
+    padding: 3px;
+    color: #fff;
+    margin: 0 0 10px
+}
+
+.list ul {
+    margin: 0 0 0 15px;
+    padding: 0
+}
+
+.list ul li {
+    margin: 0 0 7px;
+    padding: 0;
+    display: block
+}
+
+.mynewtable .list ul li a {
+    float: left;
+    color: rgb(4, 0, 252);
+    font-size: 15px;
+    margin: 0;
+    padding: 3px 0
+}
+
+/* View All tab link */
+.details-job {
+    width: 100%;
+    margin-top: 10px
+}
+
+.details-job,.eligibility-job,.position-job-inner {
+    color: #646ef8;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 1px;
+    padding: 0;
+    float: left
+}
+
+.daa a,.details-job a {
+    color: #fff;
+    text-decoration: none
+}
+
+.details-job a {
+    padding: 7px 5px;
+    width: 21%;
+    float: right;
+    margin-right: 5%;
+    background: #337ab7
+}
+
+
+
+
+/* @media only screen and (max-width: 992px) 
+    .daa-sec {
+        display:none
+    } */
+
+    
+/* links underline */
+.abuse a,.cate a,.dat,a{
+    border: none;
+    text-decoration: none;
+    outline: 0
+}
+
+@media(max-width: 768px) {
+    .postnew-right {
+        display:none
+    }
+
+    .list ul li {
+        margin: 0 0 7px;
+        padding: 0 0 0 5px;
+        display: block;
+        width: 95%
+    }
+
+    .list ul li span {
+        display: inline-block;
+        line-height: 20px;
+        color: #999;
+        font-size: 15px
+    }
+
+    .postnew-left {
+        width: 93%;
+        float: right!important
+    }
+
+    .list {
+        width: 48%;
+        margin-left: 1%;
+        border: 1px solid #4285f4
+    }
+
+    .mynewtable .list h2 {
+        font-size: 16px;
+        padding: 0;
+        line-height: 30px
+    }
+
+    .mynewtable .list ul li a {
+        font-size: 13px
+    }
+
+    .details-job a {
+        width: 35%
+    }
+
+    .mycallmd4 {
+        padding: 0
+    }
+
+    .list-sec {
+        margin: 0 0
+    }
+
+    .service {
+        padding: 5px 0;
+        height: 40px;
+        overflow: hidden
+    }
+
+    .mynewtable .callmd4-new {
+        height: 660px
+    }
+
+    .myhead1 .myheading1 a span {
+        font-size: 25px
+    }
+
+    .mynewtable .callmd4third-new {
+        height: 1140px
+    }
+
+    .footer-btm {
+        margin-bottom: 45px
+    }
+
+    .list ul li img {
+        display: none
+    }
+
+
+}
+.top3col .top3col-1 .callmd4third-new,.top3col .top3col-3 .callmd4third-new {
+    height: 1250px
+}
+
+.top3col .top3col-2 .callmd4-new:first-child {
+    height: 370px
+}
+
+.top3col .top3col-2 .callmd4-new:last-child {
+    height: 840px
+}
+
+
+/* sixth */
+
+/* Seventh website description long start here*/
+
+#seventh {
+    margin-top: 100px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    min-width: 1010px;
+    margin: auto;
+}
+
+#seventh div {
+    /* border: 2px solid gold; */
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+#seventh p {
+    background-color: rgb(14, 126, 107);
+    color: white;
+    font-size: 30px;
+    padding: 0px;
+    text-align: center;
+    margin: 45px 0px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#seventh .para3 {
+    text-align: start;
+}
+
+#seventh .para4 {
+    text-align: start;
+}
+/* description :end */
+footer {
+    /* border: 2px solid black; */
+    min-width: 1010px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer .column {
+    /* border: 2px solid lawngreen; */
+    width: 160px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+footer span {
+    /* border: 2px solid blueviolet; */
+    height: 24px;
+    text-decoration: none;
+    color: grey;
+}
+
+footer span a {
+    /* border: 2px solid blueviolet; */
+    height: 24px;
+    text-decoration: none;
+    color: rgba(14, 45, 218, 0.986);
+}
+
+footer div span:nth-child(1) {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
